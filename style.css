@@ -6,3 +6,31 @@ body {
 h1, h2 {
     color: #17403F;
 }
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #17403F;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #17403F;
+    color: #FDF6EF;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #17403F;
+    margin: 40px 0;
+}
