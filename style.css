@@ -6,3 +6,24 @@ body {
 h1, h2 {
     color: #17403F;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #eeeeee;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
