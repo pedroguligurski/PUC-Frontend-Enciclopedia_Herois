@@ -1,40 +1,140 @@
 body {
     background-color: #FDF6EF;
     font-family: Arial, sans-serif;
+    color: #1c1c1c;
+
+    margin: 0;
+    padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #17403F;
 }
 
+
 table {
     width: 100%;
+    max-width: 900px;
+
     border-collapse: collapse;
+
+    margin: 20px auto;
+
+    background-color: white;
 }
 
 th,
 td {
     border: 1px solid #cccccc;
+
     padding: 10px;
+
     text-align: left;
+
     color: black;
 }
 
 th {
-    background-color: #eeeeee;
+    background-color: #17403F;
+    color: white;
 }
 
-tr:nth-child(even) {
+
+tbody tr:nth-child(even) {
     background-color: #f8f8f8;
 }
 
-footer {
-    background-color: #344242;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
+
+.atividade-busca {
+    margin-top: 50px;
+
+    padding-top: 30px;
+
+    border-top: 2px solid #17403F;
+}
+
+
+.atividade-busca h2 {
     text-align: center;
 }
+
+
+.controles {
+    display: flex;
+
+    gap: 12px;
+
+    max-width: 900px;
+
+    margin: 20px auto;
+
+    flex-wrap: wrap;
+}
+
+
+#campoBusca {
+    flex: 1;
+
+    min-width: 220px;
+
+    padding: 10px 14px;
+
+    border: 2px solid #17403F;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+
+#botaoOrdenar {
+    padding: 10px 18px;
+
+    background-color: #17403F;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+#botaoOrdenar:hover {
+    background-color: #245f5d;
+}
+
+
+.mensagem-vazia {
+    max-width: 900px;
+
+    margin: 16px auto;
+
+    text-align: center;
+
+    color: #a03b3b;
+
+    display: none;
+}
+
+
+footer {
+    background-color: #344242;
+
+    color: white;
+
+    padding: 10px;
+
+    margin-top: 40px;
+
+    text-align: center;
+}
+
 
 footer p {
     margin: 3px 0;
